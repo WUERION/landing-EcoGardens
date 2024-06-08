@@ -9,7 +9,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body class="bg-slate-200 h-screen">
+<body class="bg-slate-200 h-dvh">
     <nav class="flex list-none flex-nowrap justify-between border border-black w-full hidden">
         <li><a href="" id="">Inicio</a></li>
         <li><a href="" id="">Sobre nosotros</a></li>
@@ -20,7 +20,7 @@
     </nav>
 
     <header style="background-image: url(img/bgHero.webp);"
-        class="flex justify-center items-center h-1/2 bg-cover p-2.5">
+        class="flex justify-center items-center h-3/5 bg-cover p-2.5">
         <div
             class="backdrop-blur-[3px] w-full h-full text-nowrap flex flex-col justify-center gap-5 items-center p-5 rounded-3xl">
             <h2 class="text-white text-lg">Bienvenido a <span class="text-lime-400 font-bold">EcoGardens</span></h2>
@@ -33,9 +33,9 @@
         </div>
     </header>
 
-    <main class="p-5 gap-5 flex flex-col">
+    <main class="p-5 gap-20 flex flex-col">
         <!-- about -->
-        <section class="p-2 backdrop-blur-md bg-[#8D6F64]/60 rounded-lg">
+        <section class="p-2 mt-5 backdrop-blur-md bg-[#8D6F64]/60 rounded-lg">
             <h2 class="text-white"> <span class="text-lime-400 font-bold">EcoGardens</span> es una starup dedficada a la
                 creacion de jardines verticales automatizados, ideales para personas que viven en apartamentos o casas
                 con poco espacio exterior. <br> El producto principal es un sitema modular que incluye riego automatico,
@@ -44,12 +44,12 @@
 
         <!-- example -->
         <section>
-            <div class="p-1 my-2  rounded text-center bg-[#8D6F64]/60">
+            <div class="p-1 mt-2 mb-8 rounded text-center bg-[#8D6F64]/60">
                 <h2 class="text-white">Ejemplos de uso</h2>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
                 <div><img src="img/cocina.webp" alt="Jardin vertical en una cocina" srcset=""
-                        class="rounded-lg w-full h-full shadow-lg shadow-[#8D6F64]/80 md:w-1/2 "></div>
+                        class="rounded-lg w-full h-full shadow-lg shadow-[#8D6F64]/80 md:w-1/2 relative"></div>
                 <div><img src="img/sala.webp" alt="Jardin vertical en una sala" srcset=""
                         class="rounded-lg w-full h-full shadow-lg shadow-[#8D6F64]/80 md:w-1/2 "></div>
                 <div><img src="img/balcon.webp" alt="Jardin vertical en un valcon" srcset=""
@@ -61,91 +61,64 @@
 
         <!-- caracteristicas -->
         <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
-            <div class="p-1 my-2 bg-[#8D6F64]/60 rounded text-center">
+            <div class="p-1 mt-2 mb-8 bg-[#8D6F64]/60 rounded text-center">
                 <h2 class="text-white">Caracteristicas</h2>
             </div>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-5 ">
-                <div class="">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+                <div class="p-2 flex flex-col items-center border border-[#8D6F64] rounded">
+                    <img src="img/riego.webp" alt=" sistema de riego" class="w-3/5 rounded">
                     <div>
-                        <img src="img/riego.webp" alt="">
-                        <div>
-                            <p>El sistema de riego automatico que se ejecuta egun la necesidad de las plantas.</p>
-                        </div>
+                        <p>El sistema de riego automatico que se ejecuta egun la necesidad de las plantas.</p>
                     </div>
                 </div>
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-5 ">
-                    <div class="">
-                        <div>
-                            <img src="img/sensor.webp" alt="">
-                            <div>
-                                <p>Sensores integrados que monitorean la humedad del suelo y ajustan el riego en
-                                    consecuencia</p>
-                            </div>
-                        </div>
+                <div class="p-2 flex flex-col items-center border border-[#8D6F64] rounded">
+                    <img src="img/sensor.webp" alt="sensores" class="w-3/5 rounded">
+                    <div>
+                        <p>Sensores integrados que monitorean la humedad del suelo y ajustan el riego en
+                            consecuencia</p>
                     </div>
                 </div>
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-5 ">
-                    <div class="">
-                        <div>
-                            <img src="img/modulos.png" alt="">
-                            <div>
-                                <p>El jardin vertical es modulas, lo que significa que se puede agregar a quitar
-                                    secciones segun el espacio disponible.</p>
-                            </div>
-                        </div>
+                <div class="p-2 flex flex-col items-center border border-[#8D6F64] rounded">
+                    <img src="img/modulos.webp" alt="modulos para las plantas" class="w-3/5 rounded">
+                    <div>
+                        <p>El jardin vertical es modulas, lo que significa que se puede agregar a quitar
+                            secciones segun el espacio disponible.</p>
                     </div>
                 </div>
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-5 ">
-                    <div class="">
-                        <div>
-                            <img src="img/app.png" alt="">
-                            <div>
-                                <p>Una aplicacion moivil que permite a los usuarios monitorear y controlar el sistema de
-                                    riego, recibir notificaciones y consejos de cuidado.</p>
-                            </div>
-                        </div>
+                <div class="p-2 flex flex-col items-center border border-[#8D6F64] rounded">
+                    <img src="img/app.webp" alt="aplicacion movil" class="w-3/5 rounded">
+                    <div>
+                        <p>Una aplicacion movil que permite a los usuarios monitorear y controlar el sistema de
+                            riego, recibir notificaciones y consejos de cuidado.</p>
                     </div>
                 </div>
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-5 ">
-                    <div class="">
-                        <div>
-                            <img src="img/energia.webp" alt="">
-                            <div>
-                                <p>Disañado para ser energeticamente eficiente, utilizando energia minima para mantener las plantas saludables.</p>
-                            </div>
-                        </div>
+                <div class="p-2 flex flex-col items-center border border-[#8D6F64] rounded">
+                    <img src="img/energyGreen.svg" alt="consumo de energia" class="w-1/5">
+                    <div>
+                        <p>Disañado para ser energeticamente eficiente, utilizando energia minima para mantener
+                            las plantas saludables.</p>
                     </div>
                 </div>
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-5 ">
-                    <div class="">
-                        <div>
-                            <img src="img/sostenible.png" alt="">
-                            <div>
-                                <p>Fabricado con materiales reciclados y saludables.</p>
-                            </div>
-                        </div>
+                <div class="p-2 flex flex-col items-center border border-[#8D6F64] rounded">
+                    <img src="img/recycling.svg" alt="sostenibilidad" class="w-1/5">
+                    <div>
+                        <p>Fabricado con materiales reciclados y saludables.</p>
                     </div>
                 </div>
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-5 ">
-                    <div class="">
-                        <div>
-                            <img src="img/instalacion.png" alt="">
-                            <div>
-                                <p>El sistema es facil de instalar y viene von isntrucciones detalladas.</p>
-                            </div>
-                        </div>
+                <div class="p-2 flex flex-col items-center border border-[#8D6F64] rounded">
+                    <img src="img/easy.svg" alt="facil istalacion" class="w-1/5">
+                    <div>
+                        <p>El sistema es facil de instalar y viene von isntrucciones detalladas.</p>
                     </div>
                 </div>
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-5 ">
-                    <div class="">
-                        <div>
-                            <img src="img/plantas.png" alt="">
-                            <div>
-                                <p>Apto para una amplia variedad de plantas, desde hierbas culinarias hasta plantas ornamentales.</p>
-                            </div>
-                        </div>
+                <div class="p-2 flex flex-col items-center border border-[#8D6F64] rounded">
+                    <img src="img/plantas.webp" alt="compativilidad de plantas" class="w-1/7 rounded">
+                    <div>
+                        <p>Apto para una amplia variedad de plantas, desde hierbas culinarias hasta plantas
+                            ornamentales.</p>
                     </div>
                 </div>
+            </div>
         </section>
     </main>
 
