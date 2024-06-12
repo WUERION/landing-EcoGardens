@@ -10,16 +10,19 @@
 </head>
 
 <body class="bg-slate-200 h-dvh">
-    <nav class="flex list-none flex-nowrap justify-between border border-black w-full hidden">
-        <li><a href="" id="">Inicio</a></li>
-        <li><a href="" id="">Sobre nosotros</a></li>
-        <li><a href="" id=""></a>Caracteristicas</li>
-        <li><a href="" id="">Testimonios</a></li>
-        <li><a href="" id="">Contacto</a></li>
-        <li><a href="" id="">Suscribirse</a></li>
+    <nav class="hidden md:block bg-[#8D6F64] fixed w-full ">
+        <ul class="flex justify-around items-center ">
+            <li><a href="#home">Inicio</a></li>
+            <li><a href="#about">Sobre nosotros</a></li>
+            <li><a href="#caracteristicas">Caracteristicas</a></li>
+            <li><a href="#testimonios">Testimonios</a></li>
+            <li><a href="#subs">Suscribirse</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#contac">Contacto</a></li>
+        </ul>
     </nav>
 
-    <header style="background-image: url(img/bgHero.webp);"
+    <header id="home" style="background-image: url(img/bgHero.webp);"
         class="flex justify-center items-center h-3/5 bg-cover p-2.5">
         <div class="backdrop-blur-[3px] w-full h-full flex justify-center items-center p-5 rounded-3xl">
             <div class="bg-gray-500/50 flex flex-col items-center gap-5 p-5 rounded">
@@ -37,7 +40,7 @@
 
     <main class="p-5 gap-20 flex flex-col">
         <!-- about -->
-        <section class="flex justify-center">
+        <section class="flex justify-center" id="about">
             <div class="p-2 mt-5 backdrop-blur-md bg-[#8D6F64]/60 rounded-lg w-full lg:w-3/5 flex justify-center">
                 <h2 class="text-white"> <span class="text-lime-400 font-bold">EcoGardens</span> es una starup dedficada
                     a la
@@ -79,7 +82,7 @@
         </section>
 
         <!-- caracteristicas -->
-        <section>
+        <section id="caracteristicas">
             <div class="flex justify-center">
                 <div class="p-1 mt-2 mb-8 bg-[#8D6F64]/60 rounded w-full lg:w-3/5">
                     <h2 class="text-white text-center">Caracteristicas</h2>
@@ -145,7 +148,7 @@
         </section>
 
         <!-- Testimonios -->
-        <section>
+        <section id="testimonios">
             <div class="flex justify-center">
                 <div class="bg-[#8D6F64]/60 p-1 rounded w-full lg:w-3/5">
                     <h2 class="text-white text-center ">Testimonios de <span
@@ -204,7 +207,7 @@
         </section>
 
         <!-- formularion -->
-        <section>
+        <section id="subs">
             <div class="flex justify-center">
                 <div class="bg-[#8D6F64]/60 rounded p-1 my-8 w-full lg:w-3/5">
                     <h2 class="text-white text-center">Suscribirse</h2>
@@ -260,7 +263,7 @@
             </div>
         </section>
         <!--FAQ  -->
-        <section>
+        <section id="faq">
             <div class="flex justify-center">
                 <div class="bg-[#8D6F64]/60 rounded p-1 w-full lg:w-3/5">
                     <h2 class="text-white text-center">Preguntas Frecunetes</h2>
@@ -299,7 +302,7 @@
         </section>
     </main>
 
-    <footer class="bg-gray-500/20 h-1/4">
+    <footer id="contac" class="bg-gray-500/20 h-1/4">
 
         <div class="bg-[#8D6F64]/60 p-1">
             <h2 class="text-white text-center">Contacto</h2>
