@@ -1,60 +1,28 @@
 # landing-EcoGardens
 
-### EcoGardens es una starup dedicada a la creacion de jardines verticales autimatizados, ideales para personas que viven en apartamentos o casas con poco espacio exterior.<br> El producto principal es un sitema modular que icluye riego automatico, sensores de humedad y una aplicacion movil para monitorear el estado de jardin.
+#### Esta landing fue echa con la ayuda de la IA ChatGPT se le pidio fingir ser un cliente
+****
 
+##### EcoGardens es una starup dedicada a la creacion de jardines verticales autimatizados, ideales para personas que viven en apartamentos o casas con poco espacio exterior.<br> El producto principal es un sitema modular que icluye riego automatico, sensores de humedad y una aplicacion movil para monitorear el estado de jardin.
 
-### requerimientos del diseño
+## Resumen
 
-## Encabezado
-
-### Diseño general 
-
-- Minimalista: Tiene que ser limpia y facil de navegar, sindemaciados elementos que distraigan.
-- Responsive: La pagina tine que verse bien tanto en movil como en pc
-
-### Diseño Especificos
-
-1. **Encabezado** 
-   - Bara de navegacion fija en la parte superior con enlaces a las secciones principales.
-   - Un hero banner con una imagen de fondo del jardin verticaly un mensaje de biebenida
-  
-2. **Intruduccion:** 
-   - Un breve parafo sobre nuetra mision y vision, acompañado de una imagen inspiradora.
-3. **Caracteristicas del producto:** 
-   - Seccion contarjetas que destaquen cada carateristica clave del producto, con iconos y breves descripciones.
-   - Posuible inclucion de una animacion o infograma interactiva que muetre el funcionamiento dek sistema.
-4. **Testimonios:**
-   - Carrusel de testimonios de usuarios satifechos del sistema.
-5. **Llamada a la accion (CTA):**
-   - Un formulario simple para suscripcion, con un boton prominente. 
-   - Un breve mensaje sobre los beneficios de suscribirse (ej. acceso a ofertas exclusivas, novedades, etc.).
-6. **Contacto:**
-   - Informacionde contacto con enlaces a nuemtras redes sociales.
-7. **Preguntas frecuentes (FQA):** 
-   - Como funciona el sistema de riego automatico?, Que tipo de plantas se pueden cultivar en los jardines?, Es facil de instalar?, Que matenimiento requiere? y Ofrecen garantia?.
-
-## Estilo 
-- Un diseño limpio y moderno, con mucho apacio en blancio para que el contenido respire. <br>  Uso de sombras suaves y bordes redndiados para darle un toque amigable.
-
-
-1. **Imágenes:** 
-    - Fotos de alta calidad del jardín vertical en diferentes entornos (cocina, sala, balcón, etc.).
-    - Imágenes de primer plano que muestren el sistema de riego automático y los sensores.
-
-2. **Animaciones:** 
-    - Una animación simple que muestre cómo funciona el sistema de riego automático.
-    - Efectos de desplazamiento suave para una mejor experiencia de usuario.
-
-3. **Colores:**
-    - Colores principales: verde (para representar la naturaleza) y blanco (para un look limpio y moderno).
-    - Colores secundarios: tonos suaves de gris y marrón.
-
-4. **Logos:** 
-    - Adjunto nuestro logo en formato PNG y SVG.
-
-5. **Fuentes:**
-    - Preferimos usar fuentes limpias y modernas como "Roboto" o "Open Sans".
-
-6. **Otros elementos:**
-    - Íconos para representar las características del producto.
-    - Un video corto (de 30 segundos) que muestra el producto en uso.
+1. **Solicitud de Proyecto:** 
+ El cliente de EcoGardens contacta a AXVOL para desarrollar una landig page para su jardin vertical automatizado.
+3. **Requisitos iniciales:** 
+   - Se discuten  las secciones necesarias: encabezado, introduccion, caracteristicas del producto, textimonios CTA, contacto.
+   - El cliente proporciona detalles sobre el producto y la empresa.
+4. **Elementos del diseño:** 
+   - Imagenes, animaciones, colores y fuentes especificos.
+   - Preferencia por un diseño minimalista y responsive.
+5. **Tiempo y presupuesto:**
+  - Se acuerda un plazo de tres semanas para completar la landing pege.
+  - Se ajusta el presupuesto a 3000MXN.
+6. **Informacion Adicional:**
+  - Testimonios de clientes.
+  - Beneficios de la suscribcion.
+  - Informacion de contacto.
+7. **Finalizacion del proyecto:** 
+  - AXVOL completa la landig page en un plazo de tres semanas y comparte la url con el cliente.
+  - El cliente revisa la landing y expresa satifacion con el trabajo realizado.
+8. **Testimonio del cliente:** Estoy mu contento con el resultado. El diseño es limpi y profesional y todas las secciones estan bien organizadas. Muchas gracias por tu exelente trabajo. Atentamente, [cliente de EcoGardens] 
