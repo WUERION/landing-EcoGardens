@@ -23,6 +23,6 @@
   - Beneficios de la suscribcion.
   - Informacion de contacto.
 7. **Finalizacion del proyecto:** 
-  - AXVOL completa la landig page en un plazo de tres semanas y comparte la url con el cliente.
+  - AXVOL completa la landig page en un plazo de tres semanas y comparte la url [https://ecogardens.zeabur.app/] con el cliente.
   - El cliente revisa la landing y expresa satifacion con el trabajo realizado.
 8. **Testimonio del cliente:** Estoy mu contento con el resultado. El diseño es limpi y profesional y todas las secciones estan bien organizadas. Muchas gracias por tu exelente trabajo. Atentamente, [cliente de EcoGardens] 
