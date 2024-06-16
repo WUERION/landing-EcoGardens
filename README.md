@@ -3,7 +3,7 @@
 #### Esta landing fue echa con la ayuda de la IA ChatGPT se le pidio fingir ser un cliente
 ****
 
-##### EcoGardens es una starup dedicada a la creacion de jardines verticales autimatizados, ideales para personas que viven en apartamentos o casas con poco espacio exterior.<br> El producto principal es un sitema modular que icluye riego automatico, sensores de humedad y una aplicacion movil para monitorear el estado de jardin.
+##### EcoGardens es una starup dedicada a la creacion de jardines verticales autimatizados, ideales para personas que viven en apartamentos o casas con poco espacio exterior.<br> El producto principal es un sistema modular que incluye riego automatico, sensores de humedad y una aplicacion movil para monitorear el estado de jardin.
 
 ## Resumen
 
