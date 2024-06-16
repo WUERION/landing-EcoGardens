@@ -8,6 +8,8 @@ h3,
 p,
 a,
 ::placeholder,
-span {
+span,
+label,
+button {
     font-family: "Open Sans", sans-serif;
 }
