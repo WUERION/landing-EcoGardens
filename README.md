@@ -16,7 +16,7 @@
    - Imagenes, animaciones, colores y fuentes especificos.
    - Preferencia por un diseño minimalista y responsive.
 5. **Tiempo y presupuesto:**
-  - Se acuerda un plazo de tres semanas para completar la landing pege.
+  - Se acuerda un plazo de tres semanas para completar la landing page.
   - Se ajusta el presupuesto a 3000MXN.
 6. **Informacion Adicional:**
   - Testimonios de clientes.
